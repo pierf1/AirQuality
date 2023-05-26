@@ -1,0 +1,16 @@
+<form class="form-horizontal">
+    <h3>{{ _('Air Quality Plugin Settings') }}</h3>
+    {% include 'airquality_settings_controls.jinja2' %}
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#settings_airquality_devices" data-toggle="tab">Devices</a></li>
+        <li><a href="#settings_airquality_locations" data-toggle="tab">Locations</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="settings_airquality_devices" class="tab-pane active">
+            {% include 'airquality_settings_devices.jinja2' %}
+        </div>
+        <div id="settings_airquality_locations" class="tab-pane">
+            {% include 'airquality_settings_locations.jinja2' %}
+        </div>
+    </div>
+</form>

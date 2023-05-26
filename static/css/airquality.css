@@ -1,0 +1,4 @@
+/* TODO: Have your plugin's CSS files generated to here. */
+#tab_plugin_airquality .js-plotly-plot .plotly .modebar {
+	z-index: 100 !important;
+}
