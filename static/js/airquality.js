@@ -567,8 +567,8 @@ $(function() {
                                 }};
 
                     var plot_data = [trace_raw1,trace_raw2_5,trace_raw10,trace_pm1,trace_pm2_5,trace_pm10]
-                    if(window.location.href.indexOf('tplinksmartplug') > 0){
-                        Plotly.react('tplinksmartplug_energy_graph',plot_data,layout,options);
+                    if(window.location.href.indexOf('airquality') > 0){
+                        Plotly.react('airquality_graph',plot_data,layout,options);
                     }
 
             })
